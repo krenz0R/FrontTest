@@ -1,7 +1,5 @@
 "use strict"
 
-a = 5
-console.log(a)
 let persone = {
 	name: "Kirill",
 	age: 25,
@@ -15,8 +13,11 @@ let arr = ['plum.png', 'orange.jpg', 'apple.bmp']
 
 console.log(arr[3])
 
-alert('Hello World')
-
-confirm()
-
 let one = '1'
+
+	(50 > one) ? console.log('True') : console.log('False')
+
+
+for (let i = 1; i < 8; i++) {
+	console.log(i)
+}
